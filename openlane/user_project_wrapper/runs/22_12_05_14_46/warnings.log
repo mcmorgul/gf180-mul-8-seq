@@ -1,2 +1,0 @@
-[WARNING]: There are max slew violations in the design at the typical corner. Please refer to '../home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/runs/22_12_05_14_46/reports/signoff/17-rcx_sta.slew.rpt'.
-[WARNING]: There are max capacitance violations in the design at the typical corner. Please refer to '../home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/runs/22_12_05_14_46/reports/signoff/17-rcx_sta.slew.rpt'.
