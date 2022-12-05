@@ -23,7 +23,7 @@ library (wrapped_multiplier_8) {
 
   nom_process                    : 1.0;
   nom_temperature                : 25.0;
-  nom_voltage                    : 3.30;
+  nom_voltage                    : 5.00;
 
   type ("io_in") {
     base_type : array;
