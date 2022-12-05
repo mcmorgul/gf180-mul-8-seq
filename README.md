@@ -7,7 +7,7 @@
 
 8-bit sequential Multiplier
 
-## Please Additional Resources
+## Additional Resources
 
 https://docs.google.com/document/d/1QKak-w1_rHK5l1xhcpSBr0TMth02HbVKgpUQvnEwUi8/edit
 
