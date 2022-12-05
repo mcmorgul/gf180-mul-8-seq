@@ -1,0 +1,156 @@
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Setting signal min routing layer to: Metal2 and clock min routing layer to Metal2. 
+[INFO]: Setting signal max routing layer to: Metal4 and clock max routing layer to Metal4. 
+-congestion_iterations 50 -verbose
+[INFO GRT-0020] Min routing layer: Metal2
+[INFO GRT-0021] Max routing layer: Metal4
+[INFO GRT-0022] Global adjustment: 30%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer Metal1  Track-Pitch = 0.5600  line-2-Via Pitch: 0.5450
+[INFO GRT-0088] Layer Metal2  Track-Pitch = 0.5600  line-2-Via Pitch: 0.5800
+[INFO GRT-0088] Layer Metal3  Track-Pitch = 0.5600  line-2-Via Pitch: 0.5800
+[INFO GRT-0088] Layer Metal4  Track-Pitch = 0.5600  line-2-Via Pitch: 0.5800
+[INFO GRT-0019] Found 0 clock nets.
+[WARNING GRT-0036] Pin io_oeb[8] is outside die area.
+[WARNING GRT-0036] Pin io_out[20] is outside die area.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 2
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0004] Blockages: 0
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+Metal1     Horizontal          0             0          0.00%
+Metal2     Vertical        17150         11254          34.38%
+Metal3     Horizontal      17150         11254          34.38%
+Metal4     Vertical        17150         11158          34.94%
+---------------------------------------------------------------
+
+[INFO GRT-0197] Via related to pin nodes: 160
+[INFO GRT-0198] Via related Steiner nodes: 0
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 176
+[INFO GRT-0112] Final usage 3D: 612
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+Metal1               0             0            0.00%             0 /  0 /  0
+Metal2           11254            50            0.44%             0 /  0 /  0
+Metal3           11254            34            0.30%             0 /  0 /  0
+Metal4           11158             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total            33666            84            0.25%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 3007 um
+[INFO GRT-0014] Routed nets: 76
+Setting global connections for newly added cells...
+Writing OpenROAD database to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/routing/16-global.odb...
+Writing layout to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/routing/16-global.def...
+Writing routing guides to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/routing/16-global.guide...
+[INFO]: Setting RC values...
+min_report
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+No paths found.
+min_report_end
+max_report
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+No paths found.
+max_report_end
+check_report
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+No paths found.
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+No paths found.
+check_report_end
+check_slew
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+check_slew_end
+tns_report
+
+===========================================================================
+ report_tns
+============================================================================
+tns 0.00
+tns_report_end
+wns_report
+
+===========================================================================
+ report_wns
+============================================================================
+wns 0.00
+wns_report_end
+worst_slack
+
+===========================================================================
+ report_worst_slack -max (Setup)
+============================================================================
+worst slack INF
+
+===========================================================================
+ report_worst_slack -min (Hold)
+============================================================================
+worst slack INF
+worst_slack_end
+clock_skew
+
+===========================================================================
+ report_clock_skew
+============================================================================
+Clock wb_clk_i
+No launch/capture paths found.
+
+clock_skew_end
+power_report
+
+===========================================================================
+ report_power
+============================================================================
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          0.00e+00   0.00e+00   1.21e-07   1.21e-07 100.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  0.00e+00   0.00e+00   1.21e-07   1.21e-07 100.0%
+                           0.0%       0.0%     100.0%
+power_report_end
+area_report
+
+===========================================================================
+ report_design_area
+============================================================================
+Design area 3416 u^2 4% utilization.
+area_report_end
+Setting global connections for newly added cells...
+Writing OpenROAD database to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/routing/16-global.odb...
+Writing layout to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/routing/16-global.def...
+Writing routing guides to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/routing/16-global.guide...

@@ -1,0 +1,128 @@
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Setting RC values...
+[INFO RSZ-0058] Using max wire length 18670um.
+[INFO RSZ-0042] Inserted 60 tie gf180mcu_fd_sc_mcu7t5v0__tiel instances.
+[INFO RSZ-0042] Inserted 16 tie gf180mcu_fd_sc_mcu7t5v0__tieh instances.
+Placement Analysis
+---------------------------------
+total displacement        144.5 u
+average displacement        0.2 u
+max displacement            9.0 u
+original HPWL            1023.9 u
+legalized HPWL           1155.5 u
+delta HPWL                   13 %
+
+[INFO DPL-0020] Mirrored 59 instances
+[INFO DPL-0021] HPWL before            1155.5 u
+[INFO DPL-0022] HPWL after             1121.7 u
+[INFO DPL-0023] HPWL delta               -2.9 %
+Setting global connections for newly added cells...
+Writing OpenROAD database to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/placement/8-resizer.odb...
+Writing netlist to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/placement/8-resizer.nl.v...
+Writing powered netlist to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/placement/8-resizer.pnl.v...
+Writing layout to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/placement/8-resizer.def...
+Writing timing constraints to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/placement/8-resizer.sdc...
+min_report
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+No paths found.
+min_report_end
+max_report
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+No paths found.
+max_report_end
+check_report
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+No paths found.
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+No paths found.
+check_report_end
+check_slew
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+check_slew_end
+tns_report
+
+===========================================================================
+ report_tns
+============================================================================
+tns 0.00
+tns_report_end
+wns_report
+
+===========================================================================
+ report_wns
+============================================================================
+wns 0.00
+wns_report_end
+worst_slack
+
+===========================================================================
+ report_worst_slack -max (Setup)
+============================================================================
+worst slack INF
+
+===========================================================================
+ report_worst_slack -min (Hold)
+============================================================================
+worst slack INF
+worst_slack_end
+clock_skew
+
+===========================================================================
+ report_clock_skew
+============================================================================
+Clock wb_clk_i
+No launch/capture paths found.
+
+clock_skew_end
+power_report
+
+===========================================================================
+ report_power
+============================================================================
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          0.00e+00   1.46e-12   3.51e-08   3.51e-08 100.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  0.00e+00   1.46e-12   3.51e-08   3.51e-08 100.0%
+                           0.0%       0.0%     100.0%
+power_report_end
+area_report
+
+===========================================================================
+ report_design_area
+============================================================================
+Design area 3416 u^2 4% utilization.
+area_report_end
+Setting global connections for newly added cells...
+Writing OpenROAD database to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/placement/8-resizer.odb...
+Writing netlist to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/placement/8-resizer.nl.v...
+Writing powered netlist to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/placement/8-resizer.pnl.v...
+Writing layout to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/placement/8-resizer.def...
+Writing timing constraints to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/placement/8-resizer.sdc...

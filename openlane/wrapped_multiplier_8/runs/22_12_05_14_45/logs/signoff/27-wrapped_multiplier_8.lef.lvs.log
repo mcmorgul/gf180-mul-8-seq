@@ -1,0 +1,402 @@
+
+Cell gf180mcu_fd_sc_mcu7t5v0__fillcap_64 (0) disconnected node: VDD
+Cell gf180mcu_fd_sc_mcu7t5v0__fillcap_64 (0) disconnected node: VSS
+Warning: Equate pins:  cell gf180mcu_fd_sc_mcu7t5v0__fillcap_64 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__fillca |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__fillca 
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__fillcap_64 and gf180mcu_fd_sc_mcu7t5v0__fillcap_64 are equivalent.
+
+Cell gf180mcu_fd_sc_mcu7t5v0__fillcap_4 (0) disconnected node: VDD
+Cell gf180mcu_fd_sc_mcu7t5v0__fillcap_4 (0) disconnected node: VSS
+Warning: Equate pins:  cell gf180mcu_fd_sc_mcu7t5v0__fillcap_4 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__fillca |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__fillca 
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__fillcap_4 and gf180mcu_fd_sc_mcu7t5v0__fillcap_4 are equivalent.
+
+Cell gf180mcu_fd_sc_mcu7t5v0__tieh (0) disconnected node: Z
+Cell gf180mcu_fd_sc_mcu7t5v0__tieh (0) disconnected node: VDD
+Cell gf180mcu_fd_sc_mcu7t5v0__tieh (0) disconnected node: VSS
+Warning: Equate pins:  cell gf180mcu_fd_sc_mcu7t5v0__tieh is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__tieh   |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__tieh   
+-------------------------------------------|-------------------------------------------
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__tieh and gf180mcu_fd_sc_mcu7t5v0__tieh are equivalent.
+
+Cell gf180mcu_fd_sc_mcu7t5v0__tiel (0) disconnected node: ZN
+Cell gf180mcu_fd_sc_mcu7t5v0__tiel (0) disconnected node: VDD
+Cell gf180mcu_fd_sc_mcu7t5v0__tiel (0) disconnected node: VSS
+Warning: Equate pins:  cell gf180mcu_fd_sc_mcu7t5v0__tiel is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__tiel   |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__tiel   
+-------------------------------------------|-------------------------------------------
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__tiel and gf180mcu_fd_sc_mcu7t5v0__tiel are equivalent.
+
+Cell gf180mcu_fd_sc_mcu7t5v0__fillcap_8 (0) disconnected node: VDD
+Cell gf180mcu_fd_sc_mcu7t5v0__fillcap_8 (0) disconnected node: VSS
+Warning: Equate pins:  cell gf180mcu_fd_sc_mcu7t5v0__fillcap_8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__fillca |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__fillca 
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__fillcap_8 and gf180mcu_fd_sc_mcu7t5v0__fillcap_8 are equivalent.
+
+Cell gf180mcu_fd_sc_mcu7t5v0__fillcap_16 (0) disconnected node: VDD
+Cell gf180mcu_fd_sc_mcu7t5v0__fillcap_16 (0) disconnected node: VSS
+Warning: Equate pins:  cell gf180mcu_fd_sc_mcu7t5v0__fillcap_16 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__fillca |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__fillca 
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__fillcap_16 and gf180mcu_fd_sc_mcu7t5v0__fillcap_16 are equivalent.
+
+Cell gf180mcu_fd_sc_mcu7t5v0__fillcap_32 (0) disconnected node: VDD
+Cell gf180mcu_fd_sc_mcu7t5v0__fillcap_32 (0) disconnected node: VSS
+Warning: Equate pins:  cell gf180mcu_fd_sc_mcu7t5v0__fillcap_32 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__fillca |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__fillca 
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__fillcap_32 and gf180mcu_fd_sc_mcu7t5v0__fillcap_32 are equivalent.
+
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[0]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[10]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[11]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[12]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[13]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[14]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[15]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[16]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[17]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[18]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[19]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[1]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[20]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[21]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[22]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[23]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[24]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[25]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[26]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[27]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[28]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[29]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[2]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[30]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[31]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[32]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[33]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[34]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[35]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[36]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[37]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[3]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[4]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[5]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[6]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[7]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[8]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[9]
+Cell wrapped_multiplier_8 (0) disconnected node: wb_clk_i
+Cell wrapped_multiplier_8 (0) disconnected node: wb_rst_i
+Cell wrapped_multiplier_8 (1) disconnected node: wb_clk_i
+Cell wrapped_multiplier_8 (1) disconnected node: wb_rst_i
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[37]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[36]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[35]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[34]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[33]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[32]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[31]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[30]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[29]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[28]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[27]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[26]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[25]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[24]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[23]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[22]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[21]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[20]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[19]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[18]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[17]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[16]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[15]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[14]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[13]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[12]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[11]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[10]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[9]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[8]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[7]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[6]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[5]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[4]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[3]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[2]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[1]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[0]
+Class wrapped_multiplier_8 (0):  Merged 1100 parallel devices.
+Class wrapped_multiplier_8 (1):  Merged 1100 parallel devices.
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[0]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[10]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[11]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[12]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[13]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[14]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[15]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[16]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[17]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[18]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[19]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[1]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[20]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[21]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[22]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[23]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[24]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[25]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[26]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[27]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[28]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[29]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[2]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[30]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[31]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[32]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[33]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[34]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[35]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[36]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[37]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[3]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[4]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[5]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[6]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[7]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[8]
+Cell wrapped_multiplier_8 (0) disconnected node: io_in[9]
+Cell wrapped_multiplier_8 (0) disconnected node: wb_clk_i
+Cell wrapped_multiplier_8 (0) disconnected node: wb_rst_i
+Cell wrapped_multiplier_8 (1) disconnected node: wb_clk_i
+Cell wrapped_multiplier_8 (1) disconnected node: wb_rst_i
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[37]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[36]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[35]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[34]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[33]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[32]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[31]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[30]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[29]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[28]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[27]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[26]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[25]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[24]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[23]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[22]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[21]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[20]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[19]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[18]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[17]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[16]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[15]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[14]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[13]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[12]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[11]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[10]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[9]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[8]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[7]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[6]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[5]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[4]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[3]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[2]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[1]
+Cell wrapped_multiplier_8 (1) disconnected node: io_in[0]
+Subcircuit summary:
+Circuit 1: wrapped_multiplier_8            |Circuit 2: wrapped_multiplier_8            
+-------------------------------------------|-------------------------------------------
+gf180mcu_fd_sc_mcu7t5v0__fillcap_64 (428-> |gf180mcu_fd_sc_mcu7t5v0__fillcap_64 (428-> 
+gf180mcu_fd_sc_mcu7t5v0__fillcap_4 (495->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_4 (495->1 
+gf180mcu_fd_sc_mcu7t5v0__tieh (16)         |gf180mcu_fd_sc_mcu7t5v0__tieh (16)         
+gf180mcu_fd_sc_mcu7t5v0__tiel (60)         |gf180mcu_fd_sc_mcu7t5v0__tiel (60)         
+gf180mcu_fd_sc_mcu7t5v0__fillcap_8 (98->1) |gf180mcu_fd_sc_mcu7t5v0__fillcap_8 (98->1) 
+gf180mcu_fd_sc_mcu7t5v0__fillcap_16 (22->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_16 (22->1 
+gf180mcu_fd_sc_mcu7t5v0__fillcap_32 (62->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_32 (62->1 
+Number of devices: 81                      |Number of devices: 81                      
+Number of nets: 78                         |Number of nets: 78                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: wrapped_multiplier_8            |Circuit 2: wrapped_multiplier_8            
+-------------------------------------------|-------------------------------------------
+io_oeb[9]                                  |io_oeb[9]                                  
+io_oeb[20]                                 |io_oeb[20]                                 
+io_oeb[8]                                  |io_oeb[8]                                  
+io_oeb[19]                                 |io_oeb[19]                                 
+io_oeb[7]                                  |io_oeb[7]                                  
+io_oeb[18]                                 |io_oeb[18]                                 
+io_oeb[6]                                  |io_oeb[6]                                  
+io_oeb[17]                                 |io_oeb[17]                                 
+io_oeb[16]                                 |io_oeb[16]                                 
+io_oeb[15]                                 |io_oeb[15]                                 
+io_oeb[14]                                 |io_oeb[14]                                 
+io_oeb[13]                                 |io_oeb[13]                                 
+io_oeb[12]                                 |io_oeb[12]                                 
+io_oeb[11]                                 |io_oeb[11]                                 
+io_oeb[10]                                 |io_oeb[10]                                 
+io_oeb[21]                                 |io_oeb[21]                                 
+io_oeb[35]                                 |io_oeb[35]                                 
+io_out[19]                                 |io_out[19]                                 
+io_out[8]                                  |io_out[8]                                  
+io_out[30]                                 |io_out[30]                                 
+io_out[18]                                 |io_out[18]                                 
+io_out[7]                                  |io_out[7]                                  
+io_out[29]                                 |io_out[29]                                 
+io_out[17]                                 |io_out[17]                                 
+io_out[28]                                 |io_out[28]                                 
+io_out[27]                                 |io_out[27]                                 
+io_out[37]                                 |io_out[37]                                 
+io_oeb[24]                                 |io_oeb[24]                                 
+io_oeb[23]                                 |io_oeb[23]                                 
+io_oeb[22]                                 |io_oeb[22]                                 
+io_oeb[5]                                  |io_oeb[5]                                  
+io_oeb[4]                                  |io_oeb[4]                                  
+io_oeb[34]                                 |io_oeb[34]                                 
+io_oeb[3]                                  |io_oeb[3]                                  
+io_oeb[33]                                 |io_oeb[33]                                 
+io_out[6]                                  |io_out[6]                                  
+io_oeb[2]                                  |io_oeb[2]                                  
+io_oeb[32]                                 |io_oeb[32]                                 
+io_out[16]                                 |io_out[16]                                 
+io_out[5]                                  |io_out[5]                                  
+io_oeb[1]                                  |io_oeb[1]                                  
+io_out[26]                                 |io_out[26]                                 
+io_out[4]                                  |io_out[4]                                  
+io_oeb[31]                                 |io_oeb[31]                                 
+io_out[15]                                 |io_out[15]                                 
+io_oeb[0]                                  |io_oeb[0]                                  
+io_out[36]                                 |io_out[36]                                 
+io_out[3]                                  |io_out[3]                                  
+io_out[14]                                 |io_out[14]                                 
+io_out[25]                                 |io_out[25]                                 
+io_oeb[30]                                 |io_oeb[30]                                 
+io_out[13]                                 |io_out[13]                                 
+io_oeb[29]                                 |io_oeb[29]                                 
+io_out[2]                                  |io_out[2]                                  
+io_out[35]                                 |io_out[35]                                 
+io_out[24]                                 |io_out[24]                                 
+io_out[1]                                  |io_out[1]                                  
+io_out[12]                                 |io_out[12]                                 
+io_out[34]                                 |io_out[34]                                 
+io_oeb[28]                                 |io_oeb[28]                                 
+io_out[23]                                 |io_out[23]                                 
+io_out[0]                                  |io_out[0]                                  
+io_out[33]                                 |io_out[33]                                 
+io_oeb[27]                                 |io_oeb[27]                                 
+io_out[11]                                 |io_out[11]                                 
+io_out[22]                                 |io_out[22]                                 
+io_out[21]                                 |io_out[21]                                 
+io_out[32]                                 |io_out[32]                                 
+io_out[10]                                 |io_out[10]                                 
+io_oeb[26]                                 |io_oeb[26]                                 
+io_oeb[37]                                 |io_oeb[37]                                 
+io_out[9]                                  |io_out[9]                                  
+io_out[20]                                 |io_out[20]                                 
+io_oeb[36]                                 |io_oeb[36]                                 
+io_out[31]                                 |io_out[31]                                 
+io_oeb[25]                                 |io_oeb[25]                                 
+vdd                                        |vdd                                        
+vss                                        |vss                                        
+io_in[0]                                   |io_in[0]                                   
+io_in[10]                                  |io_in[10]                                  
+io_in[11]                                  |io_in[11]                                  
+io_in[12]                                  |io_in[12]                                  
+io_in[13]                                  |io_in[13]                                  
+io_in[14]                                  |io_in[14]                                  
+io_in[15]                                  |io_in[15]                                  
+io_in[16]                                  |io_in[16]                                  
+io_in[17]                                  |io_in[17]                                  
+io_in[18]                                  |io_in[18]                                  
+io_in[19]                                  |io_in[19]                                  
+io_in[1]                                   |io_in[1]                                   
+io_in[20]                                  |io_in[20]                                  
+io_in[21]                                  |io_in[21]                                  
+io_in[22]                                  |io_in[22]                                  
+io_in[23]                                  |io_in[23]                                  
+io_in[24]                                  |io_in[24]                                  
+io_in[25]                                  |io_in[25]                                  
+io_in[26]                                  |io_in[26]                                  
+io_in[27]                                  |io_in[27]                                  
+io_in[28]                                  |io_in[28]                                  
+io_in[29]                                  |io_in[29]                                  
+io_in[2]                                   |io_in[2]                                   
+io_in[30]                                  |io_in[30]                                  
+io_in[31]                                  |io_in[31]                                  
+io_in[32]                                  |io_in[32]                                  
+io_in[33]                                  |io_in[33]                                  
+io_in[34]                                  |io_in[34]                                  
+io_in[35]                                  |io_in[35]                                  
+io_in[36]                                  |io_in[36]                                  
+io_in[37]                                  |io_in[37]                                  
+io_in[3]                                   |io_in[3]                                   
+io_in[4]                                   |io_in[4]                                   
+io_in[5]                                   |io_in[5]                                   
+io_in[6]                                   |io_in[6]                                   
+io_in[7]                                   |io_in[7]                                   
+io_in[8]                                   |io_in[8]                                   
+io_in[9]                                   |io_in[9]                                   
+wb_clk_i                                   |wb_clk_i                                   
+wb_rst_i                                   |wb_rst_i                                   
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes wrapped_multiplier_8 and wrapped_multiplier_8 are equivalent.
+
+Final result: Circuits match uniquely.
+.

@@ -1,0 +1,39 @@
+
+Magic 8.3 revision 331 - Compiled on Sat Oct 22 18:40:56 UTC 2022.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology gf180mcuC ...
+10 Magic internal units = 1 Lambda
+Input style import: scaleFactor=10, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    obsactive mvobsactive filldiff fillpoly m1hole obsm1 fillm1 obsv1 m2hole obsm2 fillm2 obsv2 m3hole obsm3 fillm3 m4hole obsm4 fillm4 m5hole obsm5 fillm5 glass fillblock lvstext obscomment 
+Scaled tech values by 10 / 1 to match internal grid scaling
+Loading gf180mcuC Device Generator Menu ...
+Using technology "gf180mcuC", version 1.0.359-0-g35c7265
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: wrapped_multiplier_8
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__fill_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__fill_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__endcap".
+Reading "gf180mcu_fd_sc_mcu7t5v0__tiel".
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_8".
+Reading "gf180mcu_fd_sc_mcu7t5v0__filltie".
+Reading "gf180mcu_fd_sc_mcu7t5v0__tieh".
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_16".
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_32".
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_64".
+Reading "wrapped_multiplier_8".
+[INFO]: Loading wrapped_multiplier_8
+
+DRC style is now "drc(full)"
+Loading DRC CIF style.
+No errors found.
+[INFO]: COUNT: 0
+[INFO]: Should be divided by 3 or 4
+[INFO]: DRC Checking DONE (/home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/signoff/drc.rpt)
+[INFO]: Saving mag view with DRC errors (/home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/results/signoff/wrapped_multiplier_8.drc.mag)
+[INFO]: Saved

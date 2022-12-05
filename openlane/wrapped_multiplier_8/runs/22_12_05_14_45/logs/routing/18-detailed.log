@@ -1,0 +1,202 @@
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 2 thread(s).
+[INFO DRT-0149] Reading tech and libs.
+[WARNING DRT-0140] SpacingRange unsupported.
+[WARNING DRT-0140] SpacingRange unsupported.
+[WARNING DRT-0140] SpacingRange unsupported.
+[WARNING DRT-0140] SpacingRange unsupported.
+[WARNING DRT-0140] SpacingRange unsupported.
+
+Units:                2000
+Number of layers:     11
+Number of macros:     229
+Number of vias:       60
+Number of viarulegen: 18
+
+[INFO DRT-0150] Reading design.
+
+Design:                   wrapped_multiplier_8
+Die area:                 ( 0 0 ) ( 600000 600000 )
+Number of track patterns: 10
+Number of DEF vias:       3
+Number of components:     2423
+Number of terminals:      118
+Number of snets:          2
+Number of nets:           116
+
+[INFO DRT-0167] List of default vias:
+  Layer Via1
+    default via: Via1_HV
+  Layer Via2
+    default via: Via2_VH
+  Layer Via3
+    default via: Via3_HV
+  Layer Via4
+    default via: Via4_1_VH
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+[INFO DRT-0164] Number of unique instances = 28.
+[INFO DRT-0168] Init region query.
+[INFO DRT-0024]   Complete Poly2.
+[INFO DRT-0024]   Complete CON.
+[INFO DRT-0024]   Complete Metal1.
+[INFO DRT-0024]   Complete Via1.
+[INFO DRT-0024]   Complete Metal2.
+[INFO DRT-0024]   Complete Via2.
+[INFO DRT-0024]   Complete Metal3.
+[INFO DRT-0024]   Complete Via3.
+[INFO DRT-0024]   Complete Metal4.
+[INFO DRT-0024]   Complete Via4.
+[INFO DRT-0024]   Complete Metal5.
+[INFO DRT-0033] Poly2 shape region query size = 0.
+[INFO DRT-0033] CON shape region query size = 0.
+[INFO DRT-0033] Metal1 shape region query size = 55423.
+[INFO DRT-0033] Via1 shape region query size = 414.
+[INFO DRT-0033] Metal2 shape region query size = 334.
+[INFO DRT-0033] Via2 shape region query size = 414.
+[INFO DRT-0033] Metal3 shape region query size = 334.
+[INFO DRT-0033] Via3 shape region query size = 414.
+[INFO DRT-0033] Metal4 shape region query size = 146.
+[INFO DRT-0033] Via4 shape region query size = 0.
+[INFO DRT-0033] Metal5 shape region query size = 0.
+[INFO DRT-0165] Start pin access.
+[INFO DRT-0078]   Complete 8 pins.
+[INFO DRT-0081]   Complete 8 unique inst patterns.
+[INFO DRT-0084]   Complete 76 groups.
+#scanned instances     = 2423
+#unique  instances     = 28
+#stdCellGenAp          = 32
+#stdCellValidPlanarAp  = 0
+#stdCellValidViaAp     = 24
+#stdCellPinNoAp        = 0
+#stdCellPinCnt         = 0
+#instTermValidViaApCnt = 0
+#macroGenAp            = 0
+#macroValidPlanarAp    = 0
+#macroValidViaAp       = 0
+#macroNoAp             = 0
+[INFO DRT-0166] Complete pin access.
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 124.04 (MB), peak = 124.69 (MB)
+
+Number of guides:     231
+
+[INFO DRT-0169] Post process guides.
+[INFO DRT-0176] GCELLGRID X 0 DO 35 STEP 16800 ;
+[INFO DRT-0177] GCELLGRID Y 0 DO 35 STEP 16800 ;
+[INFO DRT-0028]   Complete Poly2.
+[INFO DRT-0028]   Complete CON.
+[INFO DRT-0028]   Complete Metal1.
+[INFO DRT-0028]   Complete Via1.
+[INFO DRT-0028]   Complete Metal2.
+[INFO DRT-0028]   Complete Via2.
+[INFO DRT-0028]   Complete Metal3.
+[INFO DRT-0028]   Complete Via3.
+[INFO DRT-0028]   Complete Metal4.
+[INFO DRT-0028]   Complete Via4.
+[INFO DRT-0028]   Complete Metal5.
+[INFO DRT-0178] Init guide query.
+[INFO DRT-0035]   Complete Poly2 (guide).
+[INFO DRT-0035]   Complete CON (guide).
+[INFO DRT-0035]   Complete Metal1 (guide).
+[INFO DRT-0035]   Complete Via1 (guide).
+[INFO DRT-0035]   Complete Metal2 (guide).
+[INFO DRT-0035]   Complete Via2 (guide).
+[INFO DRT-0035]   Complete Metal3 (guide).
+[INFO DRT-0035]   Complete Via3 (guide).
+[INFO DRT-0035]   Complete Metal4 (guide).
+[INFO DRT-0035]   Complete Via4 (guide).
+[INFO DRT-0035]   Complete Metal5 (guide).
+[INFO DRT-0036] Poly2 guide region query size = 0.
+[INFO DRT-0036] CON guide region query size = 0.
+[INFO DRT-0036] Metal1 guide region query size = 76.
+[INFO DRT-0036] Via1 guide region query size = 0.
+[INFO DRT-0036] Metal2 guide region query size = 82.
+[INFO DRT-0036] Via2 guide region query size = 0.
+[INFO DRT-0036] Metal3 guide region query size = 41.
+[INFO DRT-0036] Via3 guide region query size = 0.
+[INFO DRT-0036] Metal4 guide region query size = 2.
+[INFO DRT-0036] Via4 guide region query size = 0.
+[INFO DRT-0036] Metal5 guide region query size = 0.
+[INFO DRT-0179] Init gr pin query.
+[INFO DRT-0245] skipped writing guide updates to database.
+[INFO DRT-0185] Post process initialize RPin region query.
+[INFO DRT-0181] Start track assignment.
+[INFO DRT-0184] Done with 84 vertical wires in 1 frboxes and 117 horizontal wires in 1 frboxes.
+[INFO DRT-0186] Done with 2 vertical wires in 1 frboxes and 2 horizontal wires in 1 frboxes.
+[INFO DRT-0182] Complete track assignment.
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 126.38 (MB), peak = 135.99 (MB)
+[INFO DRT-0187] Start routing data preparation.
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 126.38 (MB), peak = 135.99 (MB)
+[INFO DRT-0194] Start detail routing.
+[INFO DRT-0195] Start 0th optimization iteration.
+    Completing 10% with 0 violations.
+    elapsed time = 00:00:00, memory = 146.66 (MB).
+    Completing 20% with 0 violations.
+    elapsed time = 00:00:00, memory = 159.38 (MB).
+    Completing 30% with 0 violations.
+    elapsed time = 00:00:00, memory = 171.42 (MB).
+    Completing 40% with 0 violations.
+    elapsed time = 00:00:00, memory = 159.44 (MB).
+    Completing 50% with 0 violations.
+    elapsed time = 00:00:00, memory = 166.66 (MB).
+    Completing 60% with 0 violations.
+    elapsed time = 00:00:00, memory = 173.28 (MB).
+    Completing 70% with 0 violations.
+    elapsed time = 00:00:00, memory = 165.19 (MB).
+    Completing 80% with 0 violations.
+    elapsed time = 00:00:00, memory = 171.38 (MB).
+    Completing 90% with 0 violations.
+    elapsed time = 00:00:00, memory = 160.55 (MB).
+    Completing 100% with 0 violations.
+    elapsed time = 00:00:00, memory = 152.75 (MB).
+[INFO DRT-0199]   Number of violations = 0.
+[INFO DRT-0267] cpu time = 00:00:01, elapsed time = 00:00:00, memory = 152.66 (MB), peak = 439.75 (MB)
+Total wire length = 986 um.
+Total wire length on LAYER Metal1 = 8 um.
+Total wire length on LAYER Metal2 = 744 um.
+Total wire length on LAYER Metal3 = 233 um.
+Total wire length on LAYER Metal4 = 0 um.
+Total wire length on LAYER Metal5 = 0 um.
+Total number of vias = 116.
+Up-via summary (total 116):.
+
+--------------
+  Poly2      0
+ Metal1     78
+ Metal2     38
+ Metal3      0
+ Metal4      0
+--------------
+           116
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 986 um.
+Total wire length on LAYER Metal1 = 8 um.
+Total wire length on LAYER Metal2 = 744 um.
+Total wire length on LAYER Metal3 = 233 um.
+Total wire length on LAYER Metal4 = 0 um.
+Total wire length on LAYER Metal5 = 0 um.
+Total number of vias = 116.
+Up-via summary (total 116):.
+
+--------------
+  Poly2      0
+ Metal1     78
+ Metal2     38
+ Metal3      0
+ Metal4      0
+--------------
+           116
+
+
+[INFO DRT-0267] cpu time = 00:00:01, elapsed time = 00:00:00, memory = 152.66 (MB), peak = 439.75 (MB)
+
+[INFO DRT-0180] Post processing.
+Setting global connections for newly added cells...
+Writing OpenROAD database to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/results/routing/wrapped_multiplier_8.odb...
+Writing netlist to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/results/routing/wrapped_multiplier_8.nl.v...
+Writing powered netlist to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/results/routing/wrapped_multiplier_8.pnl.v...
+Writing layout to /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/results/routing/wrapped_multiplier_8.def...

@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 60000 60000
+string GDS_END 421520
+string GDS_FILE /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/results/signoff/wrapped_multiplier_8.magic.gds
+string GDS_START 50130
+<< end >>

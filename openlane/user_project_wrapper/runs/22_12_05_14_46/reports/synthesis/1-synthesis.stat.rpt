@@ -1,0 +1,17 @@
+
+12. Printing statistics.
+
+=== user_project_wrapper ===
+
+   Number of wires:                 18
+   Number of wire bits:            416
+   Number of public wires:          18
+   Number of public wire bits:     416
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     wrapped_multiplier_8            1
+
+   Area for cell type \wrapped_multiplier_8 is unknown!
+

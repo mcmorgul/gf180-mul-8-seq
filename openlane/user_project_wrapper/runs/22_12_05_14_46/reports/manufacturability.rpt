@@ -1,0 +1,16 @@
+Design Name: user_project_wrapper
+Run Directory: /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/runs/22_12_05_14_46
+----------------------------------------
+
+Magic DRC Summary:
+Source: /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/runs/22_12_05_14_46/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/runs/22_12_05_14_46/logs/signoff/user_project_wrapper.lvs.lef.log
+Source not found.
+----------------------------------------
+
+Antenna Summary:
+No antenna report found.

@@ -1,0 +1,236 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.22 (git sha1 f109fa3d4c5, gcc 8.3.1 -fPIC -Os)
+
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/caravel/verilog/rtl/defines.v
+Parsing Verilog input from `/home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/caravel/verilog/rtl/defines.v' to AST representation.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/../../verilog/rtl/wrapped_multiplier_8.v
+Parsing Verilog input from `/home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/../../verilog/rtl/wrapped_multiplier_8.v' to AST representation.
+Generating RTLIL representation for module `\wrapped_multiplier_8'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/../../verilog/rtl/multilib_8.v
+Parsing Verilog input from `/home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/../../verilog/rtl/multilib_8.v' to AST representation.
+Generating RTLIL representation for module `\invert'.
+Generating RTLIL representation for module `\and2'.
+Generating RTLIL representation for module `\or2'.
+Generating RTLIL representation for module `\xor2'.
+Generating RTLIL representation for module `\nand2'.
+Generating RTLIL representation for module `\nor2'.
+Generating RTLIL representation for module `\xnor2'.
+Generating RTLIL representation for module `\and3'.
+Generating RTLIL representation for module `\or3'.
+Generating RTLIL representation for module `\nor3'.
+Generating RTLIL representation for module `\nand3'.
+Generating RTLIL representation for module `\xor3'.
+Generating RTLIL representation for module `\xnor3'.
+Generating RTLIL representation for module `\fa'.
+Generating RTLIL representation for module `\Adder'.
+Generating RTLIL representation for module `\subtractor'.
+Generating RTLIL representation for module `\booth_substep'.
+Generating RTLIL representation for module `\boothmul_8x8_signed'.
+Warning: wire '\a' is assigned in a block at /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/../../verilog/rtl/multilib_8.v:192.4-192.13.
+Warning: wire '\b' is assigned in a block at /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/../../verilog/rtl/multilib_8.v:193.4-193.13.
+Warning: reg '\c_out' is assigned in a continuous assignment at /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/../../verilog/rtl/multilib_8.v:0.0-0.0.
+Warning: reg '\c_out' is assigned in a continuous assignment at /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/../../verilog/rtl/multilib_8.v:0.0-0.0.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/caravel/verilog/rtl/defines.v
+Parsing Verilog input from `/home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/caravel/verilog/rtl/defines.v' to AST representation.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/../../verilog/rtl/user_project_wrapper.v
+Parsing Verilog input from `/home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/../../verilog/rtl/user_project_wrapper.v' to AST representation.
+Generating RTLIL representation for module `\user_project_wrapper'.
+Successfully finished Verilog frontend.
+
+6. Generating Graphviz representation of design.
+Writing dot description to `/home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/user_project_wrapper/runs/22_12_05_14_46/tmp/synthesis/hierarchy.dot'.
+Dumping module user_project_wrapper to page 1.
+
+7. Executing HIERARCHY pass (managing design hierarchy).
+
+7.1. Analyzing design hierarchy..
+Top module:  \user_project_wrapper
+
+7.2. Analyzing design hierarchy..
+Top module:  \user_project_wrapper
+Removed 0 unused modules.
+
+8. Printing statistics.
+
+=== user_project_wrapper ===
+
+   Number of wires:                 18
+   Number of wire bits:            416
+   Number of public wires:          18
+   Number of public wire bits:     416
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     wrapped_multiplier_8            1
+
+9. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \user_project_wrapper..
+
+11. Executing CHECK pass (checking for obvious problems).
+Checking module user_project_wrapper...
+Warning: Wire user_project_wrapper.\wbs_dat_o [31] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [30] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [29] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [28] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [27] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [26] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [25] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [24] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [23] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [22] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [21] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [20] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [19] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [18] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [17] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [16] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [15] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [14] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [13] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [12] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [11] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [10] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [9] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [8] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [7] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [6] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [5] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [4] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [3] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [2] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [1] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_dat_o [0] is used but has no driver.
+Warning: Wire user_project_wrapper.\wbs_ack_o is used but has no driver.
+Warning: Wire user_project_wrapper.\user_irq [2] is used but has no driver.
+Warning: Wire user_project_wrapper.\user_irq [1] is used but has no driver.
+Warning: Wire user_project_wrapper.\user_irq [0] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [63] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [62] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [61] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [60] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [59] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [58] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [57] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [56] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [55] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [54] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [53] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [52] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [51] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [50] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [49] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [48] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [47] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [46] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [45] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [44] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [43] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [42] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [41] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [40] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [39] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [38] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [37] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [36] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [35] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [34] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [33] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [32] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [31] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [30] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [29] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [28] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [27] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [26] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [25] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [24] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [23] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [22] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [21] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [20] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [19] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [18] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [17] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [16] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [15] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [14] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [13] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [12] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [11] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [10] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [9] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [8] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [7] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [6] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [5] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [4] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [3] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [2] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [1] is used but has no driver.
+Warning: Wire user_project_wrapper.\la_data_out [0] is used but has no driver.
+Found and reported 100 problems.
+
+12. Printing statistics.
+
+=== user_project_wrapper ===
+
+   Number of wires:                 18
+   Number of wire bits:            416
+   Number of public wires:          18
+   Number of public wire bits:     416
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     wrapped_multiplier_8            1
+
+   Area for cell type \wrapped_multiplier_8 is unknown!
+
+13. Executing Verilog backend.
+
+13.1. Executing BMUXMAP pass.
+
+13.2. Executing DEMUXMAP pass.
+Dumping module `\user_project_wrapper'.
+
+Warnings: 103 unique messages, 104 total
+End of script. Logfile hash: f9a3887df2, CPU: user 0.51s system 0.02s, MEM: 56.72 MB peak
+Yosys 0.22 (git sha1 f109fa3d4c5, gcc 8.3.1 -fPIC -Os)
+Time spent: 97% 2x stat (0 sec), 1% 10x read_verilog (0 sec), ...

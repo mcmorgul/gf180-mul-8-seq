@@ -1,0 +1,122 @@
+Mon Dec 05 19:45:08 UTC 2022 - Executing "/openlane/scripts/mergeLef.py -o /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/merged.nom.lef -i /localtmp/asic/gf180/pdk/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/techlef/gf180mcu_fd_sc_mcu7t5v0.tlef /localtmp/asic/gf180/pdk/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lef/gf180mcu_fd_sc_mcu7t5v0.lef |& tee /dev/null"
+
+Mon Dec 05 19:45:08 UTC 2022 - Executing "python3 /openlane/scripts/mergeLib.py --output /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/synthesis/merged.lib --name gf180mcuC_merged /localtmp/asic/gf180/pdk//gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/liberty/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib"
+
+Mon Dec 05 19:45:08 UTC 2022 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/synthesis/trimmed.lib.exclude.list --output /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/synthesis/trimmed.lib /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/synthesis/merged.lib"
+
+Mon Dec 05 19:45:09 UTC 2022 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/cts/cts.lib.exclude.list --output /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/cts/cts.lib /localtmp/asic/gf180/pdk//gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/liberty/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib"
+
+Mon Dec 05 19:45:09 UTC 2022 - Executing "python3 /openlane/scripts/new_tracks.py -i /localtmp/asic/gf180/pdk//gf180mcuC/libs.tech/openlane/gf180mcu_fd_sc_mcu7t5v0/tracks.info -o /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/routing/config.tracks"
+
+Mon Dec 05 19:45:09 UTC 2022 - Executing "echo {OpenLane 235fa7a4a2872e779588919c58fc4fa32568e075} > /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/OPENLANE_VERSION"
+
+Mon Dec 05 19:45:09 UTC 2022 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /localtmp/asic/gf180/pdk//gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/liberty/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib > /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/synthesis/1-gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.no_pg.lib"
+
+Mon Dec 05 19:45:10 UTC 2022 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/synthesis/trimmed.lib > /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/synthesis/1-trimmed.no_pg.lib"
+
+Mon Dec 05 19:45:10 UTC 2022 - Executing "yosys -c /openlane/scripts/yosys/synth.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/synthesis/1-synthesis.log"
+
+Mon Dec 05 19:45:13 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/mm4uz\/asic\/gf180-shuttle-0\/submission\/gf180-mul-8-seq\/openlane\/wrapped_multiplier_8\/runs\/22_12_05_14_45\/results\/synthesis\/wrapped_multiplier_8.v/} /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/config.tcl"
+
+Mon Dec 05 19:45:13 UTC 2022 - Executing "sed -i /defparam/d /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/results/synthesis/wrapped_multiplier_8.v"
+
+Mon Dec 05 19:45:13 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/sta.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/synthesis/2-sta.log"
+
+Mon Dec 05 19:45:14 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/floorplan.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/floorplan/3-initial_fp.log"
+
+Mon Dec 05 19:45:14 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/floorplan.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/floorplan/3-initial_fp.log"
+
+Mon Dec 05 19:45:15 UTC 2022 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/defutil.py extract_core_dims --output-data /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/dimensions.txt --input-lef /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/merged.nom.lef /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/floorplan/3-initial_fp.def"
+
+Mon Dec 05 19:45:15 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/ioplacer.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/floorplan/4-io.log"
+
+Mon Dec 05 19:45:16 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/tapcell.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/floorplan/5-tap.log"
+
+Mon Dec 05 19:45:17 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/pdn.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/floorplan/6-pdn.log"
+
+Mon Dec 05 19:45:18 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/gpl.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/placement/7-global.log"
+
+Mon Dec 05 19:45:19 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/resizer.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/placement/8-resizer.log"
+
+Mon Dec 05 19:45:20 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/mm4uz\/asic\/gf180-shuttle-0\/submission\/gf180-mul-8-seq\/openlane\/wrapped_multiplier_8\/runs\/22_12_05_14_45\/tmp\/placement\/8-resizer.nl.v/} /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/config.tcl"
+
+Mon Dec 05 19:45:20 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/dpl.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/placement/9-detailed.log"
+
+Mon Dec 05 19:45:20 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/mm4uz\/asic\/gf180-shuttle-0\/submission\/gf180-mul-8-seq\/openlane\/wrapped_multiplier_8\/runs\/22_12_05_14_45\/results\/placement\/wrapped_multiplier_8.nl.v/} /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/config.tcl"
+
+Mon Dec 05 19:45:20 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/cts.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/cts/10-cts.log"
+
+Mon Dec 05 19:45:50 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/resizer_timing.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/cts/11-resizer.log"
+
+Mon Dec 05 19:45:51 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/mm4uz\/asic\/gf180-shuttle-0\/submission\/gf180-mul-8-seq\/openlane\/wrapped_multiplier_8\/runs\/22_12_05_14_45\/tmp\/cts\/11-wrapped_multiplier_8.resized.nl.v/} /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/config.tcl"
+
+Mon Dec 05 19:45:51 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/resizer_routing_timing.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/routing/12-resizer.log"
+
+Mon Dec 05 19:45:52 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/mm4uz\/asic\/gf180-shuttle-0\/submission\/gf180-mul-8-seq\/openlane\/wrapped_multiplier_8\/runs\/22_12_05_14_45\/tmp\/12-wrapped_multiplier_8.nl.v/} /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/config.tcl"
+
+Mon Dec 05 19:45:52 UTC 2022 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/diodes.py place --diode-cell gf180mcu_fd_sc_mcu7t5v0__antenna --diode-pin I --fake-diode-cell gf180mcu_fd_sc_mcu7t5v0__antenna --input-lef /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/merged.nom.lef --output-def /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/routing/13-diodes.def --output /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/routing/13-diodes.odb /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/12-wrapped_multiplier_8.odb |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/routing/13-diodes.log"
+
+Mon Dec 05 19:45:52 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/dpl.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/routing/14-diode_legalization.log"
+
+Mon Dec 05 19:45:53 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/mm4uz\/asic\/gf180-shuttle-0\/submission\/gf180-mul-8-seq\/openlane\/wrapped_multiplier_8\/runs\/22_12_05_14_45\/tmp\/routing\/diodes.nl.v/} /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/config.tcl"
+
+Mon Dec 05 19:45:53 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/fill.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/routing/15-fill.log"
+
+Mon Dec 05 19:45:54 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/mm4uz\/asic\/gf180-shuttle-0\/submission\/gf180-mul-8-seq\/openlane\/wrapped_multiplier_8\/runs\/22_12_05_14_45\/tmp\/routing\/15-fill.nl.v/} /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/config.tcl"
+
+Mon Dec 05 19:45:54 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/groute.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/routing/16-global.log"
+
+Mon Dec 05 19:45:55 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/write_views.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/routing/16-global_write_netlist.log"
+
+Mon Dec 05 19:45:56 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/mm4uz\/asic\/gf180-shuttle-0\/submission\/gf180-mul-8-seq\/openlane\/wrapped_multiplier_8\/runs\/22_12_05_14_45\/tmp\/routing\/global.nl.v/} /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/config.tcl"
+
+Mon Dec 05 19:45:56 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/droute.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/routing/18-detailed.log"
+
+Mon Dec 05 19:45:58 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/mm4uz\/asic\/gf180-shuttle-0\/submission\/gf180-mul-8-seq\/openlane\/wrapped_multiplier_8\/runs\/22_12_05_14_45\/results\/routing\/wrapped_multiplier_8.nl.v/} /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/config.tcl"
+
+Mon Dec 05 19:45:58 UTC 2022 - Executing "python3 /openlane/scripts/drc_rosetta.py tr to_klayout -o /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/routing/drt.klayout.xml --design-name wrapped_multiplier_8 /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/routing/drt.drc"
+
+Mon Dec 05 19:45:58 UTC 2022 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/wire_lengths.py --report-out /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/routing/19-wire_lengths.csv --input-lef /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/merged.nom.lef --output-def /dev/null --output /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/results/routing/wrapped_multiplier_8.odb /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/results/routing/wrapped_multiplier_8.odb |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/routing/19-wire_lengths.log"
+
+Mon Dec 05 19:45:58 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/rcx.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/signoff/20-parasitics_extraction.nom.log"
+
+Mon Dec 05 19:45:59 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/sta_multi_corner.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/signoff/21-rcx_mcsta.nom.log"
+
+Mon Dec 05 19:46:01 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/sta.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/signoff/22-rcx_sta.log"
+
+Mon Dec 05 19:46:02 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /localtmp/asic/gf180/pdk//gf180mcuC/libs.tech/magic/gf180mcuC.magicrc < /openlane/scripts/magic/def/mag_gds.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/signoff/23-gdsii.log"
+
+Mon Dec 05 19:46:02 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /localtmp/asic/gf180/pdk//gf180mcuC/libs.tech/magic/gf180mcuC.magicrc < /openlane/scripts/magic/gds/mag_with_pointers.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/signoff/23-gds_ptrs.log"
+
+Mon Dec 05 19:46:02 UTC 2022 - Executing "sed -i -n {/^<< properties >>/,/^<< end >>/p} /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/signoff/gds_ptrs.mag"
+
+Mon Dec 05 19:46:02 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /localtmp/asic/gf180/pdk//gf180mcuC/libs.tech/magic/gf180mcuC.magicrc < /openlane/scripts/magic/mag/lef.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/signoff/23-lef.log"
+
+Mon Dec 05 19:46:03 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /localtmp/asic/gf180/pdk//gf180mcuC/libs.tech/magic/gf180mcuC.magicrc < /openlane/scripts/magic/lef/maglef.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/signoff/23-maglef.log"
+
+Mon Dec 05 19:46:03 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /localtmp/asic/gf180/pdk//gf180mcuC/libs.tech/magic/gf180mcuC.magicrc < /openlane/scripts/magic/extract_spice.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/signoff/24-spice.log"
+
+Mon Dec 05 19:46:04 UTC 2022 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/power_utils.py write_powered_def --output /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/signoff/24-wrapped_multiplier_8.p.def --input-lef /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/merged.nom.lef --power-port vdd --ground-port vss --powered-netlist {} /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/results/routing/wrapped_multiplier_8.def |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/signoff/25-write_powered_def.log"
+
+Mon Dec 05 19:46:04 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/write_views.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/signoff/25-write_powered_verilog.log"
+
+Mon Dec 05 19:46:05 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/mm4uz\/asic\/gf180-shuttle-0\/submission\/gf180-mul-8-seq\/openlane\/wrapped_multiplier_8\/runs\/22_12_05_14_45\/tmp\/signoff\/24-wrapped_multiplier_8.nl.v/} /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/config.tcl"
+
+Mon Dec 05 19:46:05 UTC 2022 - Executing "netgen -batch source /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/tmp/signoff/27-setup_file.lef.lvs |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/signoff/27-lvs.lef.log"
+
+Mon Dec 05 19:46:05 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /localtmp/asic/gf180/pdk//gf180mcuC/libs.tech/magic/gf180mcuC.magicrc < /openlane/scripts/magic/drc.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/signoff/28-drc.log"
+
+Mon Dec 05 19:46:10 UTC 2022 - Executing "python3 /openlane/scripts/drc_rosetta.py magic to_tcl -o /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/signoff/drc.tcl /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/signoff/drc.rpt"
+
+Mon Dec 05 19:46:10 UTC 2022 - Executing "python3 /openlane/scripts/drc_rosetta.py magic to_tr -o /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/signoff/drc.tr /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/signoff/drc.rpt"
+
+Mon Dec 05 19:46:10 UTC 2022 - Executing "python3 /openlane/scripts/drc_rosetta.py tr to_klayout -o /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/signoff/drc.klayout.xml --design-name wrapped_multiplier_8 /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/signoff/drc.tr"
+
+Mon Dec 05 19:46:10 UTC 2022 - Executing "python3 /openlane/scripts/drc_rosetta.py magic to_rdb -o /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/signoff/drc.rdb /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/signoff/drc.rpt"
+
+Mon Dec 05 19:46:11 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/antenna_check.tcl |& tee /dev/null /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/signoff/29-antenna.log"
+
+Mon Dec 05 19:46:11 UTC 2022 - Executing "python3 /openlane/scripts/extract_antenna_violators.py --output /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/signoff/29-antenna_violators.rpt /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/logs/signoff/29-antenna.log"
+
+Mon Dec 05 19:46:12 UTC 2022 - Executing "python3 /openlane/scripts/generate_reports.py -d /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8 --design_name wrapped_multiplier_8 --tag 22_12_05_14_45 --output_file /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/metrics.csv --man_report /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45/reports/manufacturability.rpt --run_path /home/mm4uz/asic/gf180-shuttle-0/submission/gf180-mul-8-seq/openlane/wrapped_multiplier_8/runs/22_12_05_14_45"
+
